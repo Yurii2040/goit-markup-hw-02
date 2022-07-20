@@ -1,5 +1,19 @@
 body{
     background: #F5F5F5;
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+.page-header{
+    width: 1600px;
+    height: 80px;
+}
+ .logo{ position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 25px;
+    color: #000;
+ }
+
+ .logo-two{
+    color: #2196F3;
+ }
