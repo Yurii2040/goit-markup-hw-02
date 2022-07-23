@@ -7,6 +7,7 @@
     --prodact-color: #ffffff;
     --background-hero-color: #2f303a;
     --studio-employees-color: #f5f4fa;
+    --address-color:  #FFFFFF99;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -48,7 +49,7 @@ body{
     color: var(--page-hader-color);
 }
 
-.header-item :hover,:focus {
+.header-link:hover, .header-link:focus {
     color: var(--hover-hader-color) ;
 }
 
@@ -67,9 +68,13 @@ body{
    
 }
 
-.header-contact-item :hover,:focus {
+.header-mail:hover, .header-mail:focus {
     color: var(--hover-hader-color);
 }
+
+.header-tel:hover, .header-tel:focus {
+        color: var(--hover-hader-color);
+    }
 
 .header-mail {
     color: var(--contact-color);
@@ -95,7 +100,9 @@ body{
 /*--HERO STUDIO--*/
 
 .hero-studio {
-   font-weight: 900;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
@@ -119,6 +126,8 @@ body{
 }
 
 .studio-works {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -130,6 +139,8 @@ body{
 .studio-examples {}
 
 .studio-after-title {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -140,6 +151,8 @@ body{
 /*--STUDIO PRODACT--*/
 
 .studio-prodact {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -149,6 +162,8 @@ body{
 /*--EMPLOYEEES--*/
 
 .studio-employees {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -157,6 +172,8 @@ body{
 }
 
 .studio-employees-name {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -164,6 +181,8 @@ body{
 }
 
 .studio-employees-position {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -174,36 +193,35 @@ body{
 /*--PORTFOLIO--*/
 .hero {
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;
-        letter-spacing: 0.03em;
-        color: var(--page-hader-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--page-hader-color);
 }
 
-.hero-list {
+.main-btn {
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--page-hader-color);
+    background-color: var(--studio-employees-color);
+    
 }
 
-.hero-item :hover, :focus{
+.main-btn:hover, .main-btn:focus {
     background-color: var(--hover-hader-color);
     color: var(--prodact-color);
 }
 
-
-.main-btn {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;
-        letter-spacing: 0.03em;
-        color: var(--page-hader-color);
-        background-color: var(--studio-employees-color);
-    
-}
-
 .hero-title {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -212,6 +230,8 @@ body{
 }
 
 .hero-after-title {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
@@ -238,20 +258,30 @@ body{
     font-style: normal;
 }
 
-
-
 .address-list{
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
-.address-list :hover, :focus{
+.address-map:hover, .address-map:focus{
+    color: var(--hover-hader-color);
+}
+
+.address-mail:hover,.address-mail:focus {
+    color: var(--hover-hader-color);
+}
+
+.address-tel:hover,.address-tel:focus {
     color: var(--hover-hader-color);
 }
 
 .address-map {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -259,19 +289,22 @@ body{
     color: var(--prodact-color);
 }
 
-
 .address-mail  {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--prodact-color) 0.6;}
-
+    color: var(--address-color) ;
+}
 
 .address-tel {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--prodact-color) 0.6;
+    color: var(--address-color) ;
 }
