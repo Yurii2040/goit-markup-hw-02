@@ -40,7 +40,7 @@ body{
     color: var(--hover-hader-color);
 }
 
-.header-list { 
+.header-link { 
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
@@ -58,7 +58,7 @@ body{
     color: var(--page-hader-color);
 }
 
-.header-contact {
+.header-mail, .header-tel {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -99,7 +99,8 @@ body{
 
 /*--HERO STUDIO--*/
 
-.hero-studio {
+
+.hero-studio-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -107,11 +108,8 @@ body{
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--prodact-color) ;
-    background-color: var(--background-hero-color);
-}
-
-.hero-studio-title {}
+    color: var(--prodact-color);
+    background-color: var(--background-hero-color);}
 
 .hero-studio-btn {
     cursor: pointer;
@@ -125,7 +123,8 @@ body{
     background-color: var(--hover-hader-color);
 }
 
-.studio-works {
+
+.studio-examples {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -135,8 +134,6 @@ body{
     text-transform: uppercase;
     color: var(--page-hader-color);
 }
-
-.studio-examples {}
 
 .studio-after-title {
     font-family: 'Roboto';
@@ -150,7 +147,7 @@ body{
 
 /*--STUDIO PRODACT--*/
 
-.studio-prodact {
+.studio-prodact-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -161,7 +158,7 @@ body{
 
 /*--EMPLOYEEES--*/
 
-.studio-employees {
+.studio-employees-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -191,15 +188,6 @@ body{
 
 
 /*--PORTFOLIO--*/
-.hero {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
-    color: var(--page-hader-color);
-}
 
 .main-btn {
     cursor: pointer;
@@ -256,15 +244,6 @@ body{
 
 .address{
     font-style: normal;
-}
-
-.address-list{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 .address-map:hover, .address-map:focus{
