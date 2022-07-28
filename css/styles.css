@@ -84,7 +84,7 @@ body{
     color: var(--contact-color);
 }
 
-.studio-examples {
+.studio-examples-studio {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -99,6 +99,9 @@ body{
 
 /*--HERO STUDIO--*/
 
+.hero-studio{
+background-color: var(--background-hero-color);
+}
 
 .hero-studio-title {
     font-family: 'Roboto';
@@ -109,7 +112,7 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--prodact-color);
-    background-color: var(--background-hero-color);}
+   }
 
 .hero-studio-btn {
     cursor: pointer;
@@ -146,6 +149,15 @@ body{
 }
 
 /*--STUDIO PRODACT--*/
+.studio-works-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--page-hader-color);
+}
 
 .studio-prodact-title {
     font-family: 'Roboto';
